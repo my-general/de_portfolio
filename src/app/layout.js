@@ -12,7 +12,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata = {
   title: "Syed Taher | Data Engineer Portfolio",
-  description: "Interactive portfolio of Alex Doe, a Data Engineer specializing in scalable data pipelines, cloud architecture, and ETL processes.",
+  description: "Interactive portfolio of Syed Taher, a Data Engineer specializing in scalable data pipelines, cloud architecture, and ETL processes.",
 };
 
 export default function RootLayout({ children }) {
