@@ -55,7 +55,7 @@ export default function Home() {
                           sm:text-3xl 
                           md:text-4xl
                           leading-tight">
-              Data Pipeline: Alex Doe
+              Data Pipeline
             </h1>
             <p className="text-slate-400 mt-1 sm:mt-2 text-xs sm:text-sm md:text-base">
               An interactive dashboard of my skills and experience.
