@@ -1,0 +1,79 @@
+{
+  "personalInfo": {
+    "name": "Syed Taher",
+    "title": "Data Engineer & Cloud Architect",
+    "summary": "I architect and construct scalable data ecosystems, transforming raw data into strategic assets. My passion lies in building robust, efficient pipelines that empower data-driven decisions.",
+    "headshot": "https://placehold.co/400x400/0f172a/94a3b8?text=AD"
+  },
+  "techStack": [
+    {
+      "name": "Python",
+      "certification": null
+    },
+    {
+      "name": "AWS",
+      "certification": "AWS Certified Solutions Architect – Associate",
+      "issueDate": "October 2025",
+      "credentialUrl": "https://www.credly.com/your-badge-link",
+      "certificateFile": "/tsrtcqr.png"
+    },
+    {
+      "name": "Apache Spark",
+      "certification": "Databricks Certified Associate Developer for Apache Spark",
+      "issueDate": "July 2024",
+      "credentialUrl": null,
+      "certificateFile": "/databricks-spark-cert.pdf"
+    },
+    {
+      "name": "Snowflake",
+      "certification": "SnowPro Core Certification",
+      "issueDate": "January 2025",
+      "credentialUrl": "https://www.credly.com/your-other-badge-link",
+      "certificateFile": null
+    },
+    {
+      "name": "dbt",
+      "certification": null
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Real-time Streaming Data Pipeline",
+      "description": "Engineered a high-throughput pipeline using Kafka and Spark Streaming.",
+      "repo": "streaming-pipeline",
+      "githubUrl": "https://github.com/yourusername/streaming-pipeline"
+    },
+    {
+      "id": 2,
+      "title": "Cloud Data Warehouse Modernization",
+      "description": "Led the migration from an on-premise SQL server to Google BigQuery.",
+      "repo": "data-warehouse-migration",
+      "githubUrl": "https://github.com/yourusername/data-warehouse-migration"
+    },
+    {
+      "id": 3,
+      "title": "Scalable ETL Framework for Analytics",
+      "description": "Developed a Python-based ETL framework on AWS Glue.",
+      "repo": "Third_eye",
+      "githubUrl": "https://github.com/SYED-TAHER/Third_eye"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Data Engineer",
+      "company": "DataCorp Analytics",
+      "period": "2022 - Present"
+    },
+    {
+      "role": "Data Engineer",
+      "company": "Insight Systems",
+      "period": "2020 - 2022"
+    }
+  ],
+  "contact": {
+    "email": "mohammedsyedtaher1@gmail.com",
+    "github": "https://github.com/SYED-TAHER",
+    "linkedin": "https://linkedin.com/in/yourprofile"
+  }
+}
