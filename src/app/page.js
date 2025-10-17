@@ -54,7 +54,7 @@ export default function Home() {
           {/* Adjusted margin for mobile (mb-8) and larger screens (sm:mb-12) */}
           <div className="text-center mb-8 sm:mb-12">
             {/* Responsive heading size for better fit on small screens */}
-            <h1 className="text-3xl sm:text-4xl font-bold text-cyan-400">Data Pipeline: Alex Doe</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold text-cyan-400">Data Pipeline: Syed Taher</h1>
             <p className="text-slate-400 mt-2">An interactive dashboard of my skills and experience.</p>
           </div>
 
