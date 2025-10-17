@@ -16,7 +16,6 @@ const DataWarehouse = dynamic(() => import('./components/DataWarehouse'));
 const ServingLayer = dynamic(() => import('./components/ServingLayer'));
 import portfolioData from '../../data/portfolioData.json';
 
-
 export default function Home() {
   const [activeStage, setActiveStage] = useState(1);
   const [isContactModalOpen, setContactModalOpen] = useState(false);
@@ -47,20 +46,33 @@ export default function Home() {
 
   return (
     <>
-      {/* --- RESPONSIVE ADJUSTMENTS APPLIED --- */}
-      {/* Adjusted padding for mobile (pt-8) and larger screens (md:pt-12) */}
-      <main className="flex min-h-screen flex-col items-center p-4 pt-8 md:p-12 bg-slate-900 text-slate-300">
-        <div className="w-full max-w-5xl">
-          {/* Adjusted margin for mobile (mb-8) and larger screens (sm:mb-12) */}
-          <div className="text-center mb-8 sm:mb-12">
-            {/* Responsive heading size for better fit on small screens */}
-            <h1 className="text-3xl sm:text-4xl font-bold text-cyan-400">Data Pipeline: Syed Taher</h1>
-            <p className="text-slate-400 mt-2">An interactive dashboard of my skills and experience.</p>
+      <main className="min-h-screen bg-slate-900 text-slate-300 w-full overflow-x-hidden">
+        <div className="w-full mx-auto px-4 py-4 sm:px-4 sm:py-6 md:px-6 md:py-8 lg:px-8 lg:py-12">
+          {/* Header */}
+          <div className="text-center mb-6 sm:mb-8 md:mb-12 w-full">
+            <h1 className="text-xl font-bold text-cyan-400 break-words 
+                          xs:text-2xl 
+                          sm:text-3xl 
+                          md:text-4xl
+                          leading-tight">
+              Data Pipeline: Alex Doe
+            </h1>
+            <p className="text-slate-400 mt-1 sm:mt-2 text-xs sm:text-sm md:text-base">
+              An interactive dashboard of my skills and experience.
+            </p>
           </div>
 
-          <Blueprint activeStage={activeStage} onStageSelect={handleStageSelect} />
+          {/* Blueprint - FIXED FOR SAMSUNG MOBILE */}
+          <div className="w-full flex justify-center">
+            <div className="w-full max-w-full overflow-x-auto">
+              <div className="min-w-min px-2 py-2 flex justify-center">
+                <Blueprint activeStage={activeStage} onStageSelect={handleStageSelect} />
+              </div>
+            </div>
+          </div>
 
-          <div className="mt-8 min-h-[300px]">
+          {/* Content Area */}
+          <div className="mt-4 sm:mt-6 md:mt-8 min-h-[250px] sm:min-h-[300px] w-full">
             <AnimatePresence mode="wait">
               {renderContent()}
             </AnimatePresence>
@@ -76,4 +88,3 @@ export default function Home() {
     </>
   );
 }
-
