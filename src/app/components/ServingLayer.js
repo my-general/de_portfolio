@@ -29,7 +29,7 @@ export default function ServingLayer({ onContact }) {
         {/* --- THE TWO PRIMARY ACTION BUTTONS --- */}
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <motion.a 
-            href="/resume.pdf" // Use the web-safe version of your resume
+            href="/resume.pd" // Use the web-safe version of your resume
             target="_blank"
             className="group bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold py-3 px-6 text-lg rounded-lg transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-cyan-500/25"
             whileHover={{ scale: 1.05, y: -2 }}
